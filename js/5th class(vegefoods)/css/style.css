@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0px;
+
+}
+
+.green{
+ color: #82ae46;
+}
+.bg-green{
+    background-color: #82ae46;
+}
+/***************
+font-family: 'Amatic SC', cursive;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+ ***************/
+ /* header section css start */
+header{
+    width: 100%;
+}
+.top-header{
+    width: ;
+    background-color: #82ae46;
+    padding: 8px 0px;
+}
+.top-header span {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-menu{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.header-menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 240px;
+}
+.last{
+    margin-left: 150px;
+}
+
+
+.navbar{
+    line-height: 1.7;
+}
+.menus{
+    display: flex;
+   justify-content: space-between;
+   padding: 16px 0px;
+}
+
+.menubar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+    padding-top: 8px;
+}
+.logo a{
+    font-size: 20px;
+    color: #82ae46;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 180px;
+    padding-top: 8px;
+}
+.menubar ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+}
+ /* header section css end */
+
+
+
+ /* banner section css start */
+
+.banner{
+    width: 100%;
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    padding: 150px 0px;
+}
+.banner-concept{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 300px;
+}
+.banner-concept h1{
+    color: white;
+    font-size: 63px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 16px;
+}
+.banner-concept p{
+    font-size: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    background-color: #82ae46;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: Poppins', sans-serif';
+    border-radius: 35px;
+    border: 2px solid #82ae46;
+    display: inline-block;
+    transition: 1.5s;
+}
+.banner-btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 1.5s;
+}
+ /* banner section css end */
+
+
+
+/* feautures section code start */
+.feautures{
+    width: 100%;
+    padding: 100px 120px;
+}
+.fitems-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.f-item img{
+    width: 50px;
+    margin-top: 26px;
+    filter: invert(1);
+}
+.f-item{
+    margin-left: 140px;
+}
+.f-item h6{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.f-item p{
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5s;
+    font-family: 'Poppins', sans-serif;  
+    text-transform: uppercase;
+}
+.f-item span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+}
+.f-item:nth-child(1) span{
+    background-color: #e4b2d6;
+}
+.f-item:nth-child(2) span{
+    background-color: #dcc698;
+}
+.f-item:nth-child(3) span{
+    background-color: rebeccapurple;
+}
+.f-item:nth-child(4) span{
+    background-color: burlywood;
+}
+.f-item span:hover{
+         background-color: #82ae46;
+}
+.f-item span::before{
+    content: '';
+    position: absolute;
+    border: 1px solid rgba(255,255,255,0.5);
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 100px;
+}
+
+/* feautures section code end  */
+/* css section start */
+.f-category{
+    width: 100px;
+    background-color: #fff;
+    padding: 100px 0px;
+}
+/* css section end */

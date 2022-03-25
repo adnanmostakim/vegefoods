@@ -1,0 +1,663 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0px;
+
+}
+
+.green{
+ color: #82ae46;
+}
+.bg-green{
+    background-color: #82ae46;
+}
+/***************
+font-family: 'Amatic SC', cursive;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+ ***************/
+ /* header section css start */
+.header{
+    width: 100%;
+}
+.top-header{
+    width: ;
+    background-color: #82ae46;
+    padding: 8px 0px;
+   
+}
+.top-header span {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header-menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 240px;
+}
+.last{
+    margin-left: 150px;
+}
+
+
+.navbar{
+    line-height: 1.7;
+  
+}
+.menus{
+    display: flex;
+   justify-content: space-between;
+   padding: 16px 0px;
+  
+}
+
+.menubar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+    padding-top: 8px;
+ 
+}
+.logo a{
+    font-size: 20px;
+    color: #82ae46;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 180px;
+    padding-top: 8px;
+}
+.menubar ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+}
+ /* header section css end */
+
+
+
+ /* banner section css start */
+
+.banner{
+    width: 100%;
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    padding: 150px 0px;
+}
+.banner-concept{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 300px;
+}
+.banner-concept h1{
+    color: white;
+    font-size: 63px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 16px;
+}
+.banner-concept p{
+    font-size: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    background-color: #82ae46;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: Poppins', sans-serif';
+    border-radius: 35px;
+    border: 2px solid #82ae46;
+    display: inline-block;
+    transition: 1.5s;
+}
+.banner-btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 1.5s;
+}
+ /* banner section css end */
+
+
+
+/* feautures section code start */
+.feautures{
+    width: 100%;
+    padding: 100px 120px;
+}
+.fitems-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.f-item img{
+    width: 50px;
+    margin-top: 26px;
+    filter: invert(1);
+}
+.f-item{
+    margin-left: 140px;
+}
+.f-item h6{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.f-item p{
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5s;
+    font-family: 'Poppins', sans-serif;  
+    text-transform: uppercase;
+}
+.f-item span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+}
+.f-item:nth-child(1) span{
+    background-color: #e4b2d6;
+}
+.f-item:nth-child(2) span{
+    background-color: #dcc698;
+}
+.f-item:nth-child(3) span{
+    background-color: rebeccapurple;
+}
+.f-item:nth-child(4) span{
+    background-color: burlywood;
+}
+.f-item span:hover{
+         background-color: #82ae46;
+}
+.f-item span::before{
+    content: '';
+    position: absolute;
+    border: 1px solid rgba(255,255,255,0.5);
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 100px;
+}
+
+/* feautures section code end  */
+/* f-category section css start */
+.f-category{
+    width: 100%;
+    padding: 100px 180px;
+}
+.f-gallery{
+    display: flex;
+}
+.fc-items{
+    flex-basis: 33%;
+}
+.item-content{
+    position: relative;
+   
+}
+.item-content div{
+    height: 250px;
+    overflow: hidden;
+}
+.item-content a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #82ae46;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;  
+    
+}
+.item-content img{
+    max-width: 100%;
+    height: auto;
+}
+.second{
+    background-image: url(../image/veg9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+.second h3{
+    font-size: 28px;
+    color: #82ae46;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+.second p{
+    font-size: 15px;
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+.fc-items banner-btn::hover{
+        border-color: #000;
+        color: black;
+}
+/* products section css  start */
+.products{
+    width: 100%;
+    padding: 80px 0px;
+}
+.products-section{
+     text-align: center;
+     margin-left: 300px;
+}
+.products-section h6{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #82ae46;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.products-section h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+}
+.products-section p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #808080;
+    font-weight: 400;
+}
+.product-item img{
+    max-width: 240px;
+    height: auto;
+}
+.product{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 32px;
+    row-gap: 30px;
+    padding-top: 32px;
+}
+.product{
+    text-align: center;
+    margin-left: 230px;
+}
+.product-item{
+    border: 1px solid #eee;
+    padding: 24px 0px;
+    position: relative;
+}
+.product-item h4 {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.price span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+.price span del{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #b3b3b3;
+} 
+.offer{
+    background-color: #82ae46;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 4px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+} 
+.product-meta{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 48px;
+    display: none;
+}
+.product-meta a i{
+    background-color: #82ae46;
+    color: #fff;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.product-item:hover .product-meta{
+    display: block;
+}
+
+/* products section css  end */
+
+/* poster section code start */
+.poster{
+    width: 100%;
+    background-image: url(../image/dhan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    padding: 150px 0px;
+}
+.poster-content{
+    display: flex;
+    padding-left: 450px;
+}
+.poster-content-left, .poster-content-right{
+   flex-basis: 50%;
+}
+.poster-content-right h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #82ae46;
+}
+.poster-content-right h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+}
+.poster-content-right p {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 12px;
+    background-color: none;
+}
+.poster-content-right h2 {
+    color: #82ae46;
+    font-size: 30px;
+    font-family: "Lora", Georgia, serif;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: 300;
+}
+.price span {
+    color: #82ae46;
+    font-family: serif;
+    font-size: 400;
+}
+.countdown{
+    height: 100%;
+}
+/* testimonial section code end */
+.testimonial{
+    width: 100%;
+    padding: 100px 0px;
+}
+.t-gallery{
+    margin-top: 64px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 240px;
+}
+.testimonial-item img{
+       width: 100px;
+       border-radius: 100%;
+}
+.testimonial-item p{
+    margin-top: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #808080;
+    font-weight: 400;
+    margin-bottom: 32px;
+    border-left: 2px solid #eee;
+    position: relative;
+}
+.testimonial-item p::before{
+    content: "";
+    height: 30px;
+    width: 2px;
+    background-color: #82ae46;
+    position: absolute;
+    left: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.testimonial-item h4{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonial-item h6 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.userimg{
+    margin-left: 27px;
+    position: relative;
+    display: inline-block;
+}
+.userimg i{
+    width: 40px;
+    height: 40px;
+    color: #82ae46;
+    background-color: white;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+}
+/* testimonial section css end */
+/*internet image section css start */
+.all-images{
+    width: 150%;
+    padding: 100px 0px;
+}
+.i-company{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.i-company img{
+    max-width: 70%;
+    height: auto;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+/*internet image section css end */
+/* form section css start */
+.form{
+    width: 100%;
+    padding: 100px 0px;
+}
+.f-all{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.f-all{
+    width: 150%;
+    height: 250px;
+    background-color: #eee;
+}
+.f-left{
+    margin-top: 100px;
+    margin-bottom: 64px;
+    margin-left: 180px;  
+}
+.f-right{
+    margin: 100px 0px;
+}
+
+.f-left h3{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.f-left p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}
+.f-right button a {
+    background-color: #82ae46;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+.every{
+    width: 100%;
+    position: relative;
+
+}
+.f-right input {
+    background-color: white;
+    color: #000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    padding: 12px 30px;
+}
+.icn{
+    text-align: center;
+    font-size: 24px;
+    background-color: #82ae46;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    margin-left: 150px;
+}
+/* form section css end */
+/* form section css start */
+.footer{
+    width: 100%;
+    padding: 100px 80px;
+}
+.footer-content{
+    display: flex;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+.footer-1{
+    flex-basis: 20%;
+    margin-right: 36px;
+}
+.footer-2{
+    flex-basis: 20%;
+}
+.footer-3{
+    flex-basis: 35%;
+}
+.footer-4{
+    flex-basis: 20%;
+}
+.footer-content h6{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 20px;
+    color: #000;
+}
+.footer-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+}
+.footer-icon a{
+    margin-right: 12px;
+}
+.footer-icon i{
+    margin-top: 32px;
+    height: 30px;
+    background-color: #f5f5f5;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.footer-icon i:hover{
+     background-color: #82ae46;
+     color: whitesmoke;
+}
+.footer-4 i{
+    margin-right: 12px;
+}
+.foot-menu li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.foot-menu li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+}
+.copyright p a{
+   color: #82ae46;
+}
+.d-flex{
+    display: flex;
+}
+/* form section css end */
+
